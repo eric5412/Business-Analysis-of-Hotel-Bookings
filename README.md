@@ -160,10 +160,4 @@ not canceled.
     booking, such as the size of bed needed or if they prefer their room
     to be on the first floor. 
     
-    <br> 
-    
 Please click [here]( https://github.com/eric5412/Business-Analysis-of-Hotel-Bookings/blob/main/Analysis-of-Hotel-Bookings.md) for the entire project.
-    
-    <br> 
-    
-    <br>
