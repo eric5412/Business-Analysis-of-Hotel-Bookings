@@ -109,4 +109,54 @@ not canceled.
 
 <br>
 
+### Key Takeaways:
+
+- Large lead times for a booking tend to increase the likelihood that
+  the booking will be canceled.
+
+- As the number of previous bookings canceled by a potential guest
+  increases, the likelihood that their current booking will be canceled
+  also increases.
+
+- When a booking has several special requests included, the likelihood
+  of the booking being canceled decreases. A possible strategy to
+  decrease cancellations may be to prioritize asking the potential guest
+  if they have any special requests for their booking, such as the size
+  of bed needed or if they prefer their room to be on the first floor.
+
+- If the option to request car parking spaces is used during a booking,
+  then there may be a lower likelihood that the booking will be
+  canceled.
+
+- When a potential guest has made several booking changes, there tends
+  to be a lower likelihood that their booking will be canceled.
+
+- If a potential guest is a repeated guest, then there may be a lower
+  likelihood that their current booking will be canceled.
+
+- Four Random Forest models were built and evaluated. The model accuracy
+  and number of false negatives were compared. The fourth model was
+  selected for predicting if a booking will be canceled or not canceled.
+  <br> <br>
+
+### Recommendations:
+
+- The selected model can be integrated into an app that the hotels can
+  use when calculating revenue projections.
+
+- The hotels can periodically run the model on their booking data to
+  generate estimates of how many canceled bookings they may expect in a
+  given time period.
+
+- The hotels can then take steps that seek to minimize the likelihood of
+  canceled bookings, such as:
+
+  - Sending periodic emails to potential guests that have booked a hotel
+    far in advance, with information about their booking and any
+    promotions the hotel may have.
+
+  - Prioritizing to ask the potential guest if they want to reserve car
+    parking spaces and if they have any special requests for their
+    booking, such as the size of bed needed or if they prefer their room
+    to be on the first floor. <br> <br> <br> <br> <br> <br>
 
