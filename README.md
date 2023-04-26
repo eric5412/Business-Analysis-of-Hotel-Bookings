@@ -53,5 +53,12 @@ support the hotels when calculating revenue projections.
   
   <br>
   
+  ![A doughnut chart of the Deposit Type Percentage for Bookings](/images/10.png)
+
+Most of the bookings for both of the hotels were made with no deposit.
+
+<br>
   
-  
+
+
+
