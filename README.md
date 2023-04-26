@@ -158,5 +158,14 @@ not canceled.
   - Prioritizing to ask the potential guest if they want to reserve car
     parking spaces and if they have any special requests for their
     booking, such as the size of bed needed or if they prefer their room
-    to be on the first floor. <br> <br> <br> <br> <br> <br>
-
+    to be on the first floor. 
+    
+    <br> 
+    
+    <br> 
+    
+    Please click [here]( https://github.com/eric5412/Business-Analysis-of-Hotel-Bookings/blob/main/Analysis-of-Hotel-Bookings.md)for the entire project.
+    
+    <br> 
+    
+    <br>
