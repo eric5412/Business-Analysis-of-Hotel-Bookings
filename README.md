@@ -32,7 +32,7 @@ support the hotels when calculating revenue projections.
   presented.
 
 - **Part 2:** The Random Forest machine learning algorithm was used to
-  predict cancellation status, indicating if a booking was canceled or
+  predict cancellation status, indicating if a booking would be canceled or
   not canceled. Several Random Forest machine learning models were built
   and compared, in order to evaluate which model was to be selected in
   providing estimates to support the hotels when calculating revenue
