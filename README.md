@@ -59,6 +59,15 @@ Most of the bookings for both of the hotels were made with no deposit.
 
 <br>
   
+![A bar chart of the Year-Over-Year Bookings Kept in July](/images/14.png)
+
+From 2015 through 2017, the City Hotel had an upward trend in its number
+of bookings kept in July.
+
+From 2015 through 2017, the Resort Hotel had a more constant level in
+its number of bookings kept in July, with a slight decrease in 2016.
+
+<br>
 
 
 
