@@ -96,4 +96,17 @@ period.
 
 <br>
 
+**Conclusion:** The results of the fourth model were very close to the
+results of the second model, which used all the features when building a
+Random Forest. The second model provided the highest accuracy and the
+lowest number of false negatives, but it was not selected because using
+every feature may overfit the data and not allow the model to predict
+well with new data.  
+Since the fourth model used less features and had an accuracy and number
+of false negatives that were comparable to the second model, the fourth
+model was selected for predicting whether a booking will be canceled or
+not canceled. 
+
+<br>
+
 
