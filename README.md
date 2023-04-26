@@ -1,7 +1,6 @@
 Business Analysis of Hotel Bookings
 ================
 
-<br>
 
 ### Introduction:
 
@@ -82,5 +81,19 @@ change in the number of bookings kept in August.
 
 <br>
 
+Random Forest is an ensemble machine learning algorithm that can be used
+for regression or classification purposes. It combines multiple Decision
+Trees in order to make a prediction. This project used Random Forest as
+a classifier. Random Forest was used to predict if a booking will be canceled or not
+canceled.
+
+Several Random Forest machine learning models were built and compared,
+with the goal of selecting a model that would generalize well with new
+data, have a low number of false negatives, and have a high accuracy.
+The selected model can be used by the two hotels to estimate how many
+canceled and non-canceled bookings they may have for a given time
+period.
+
+<br>
 
 
