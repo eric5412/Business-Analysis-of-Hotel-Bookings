@@ -892,7 +892,7 @@ rf_model1
 
     ## 
     ## Call:
-    ##  randomForest(formula = is_canceled ~ total_of_special_requests +      required_car_parking_spaces + booking_changes + previous_cancellations +      lead_time + is_repeated_guest, data = bookings_ml_v3) 
+    ##  randomForest(formula = is_canceled ~ total_of_special_requests + required_car_parking_spaces + booking_changes + previous_cancellations  + lead_time + is_repeated_guest, data = bookings_ml_v3) 
     ##                Type of random forest: classification
     ##                      Number of trees: 500
     ## No. of variables tried at each split: 2
@@ -1021,7 +1021,7 @@ rf_model3
 
     ## 
     ## Call:
-    ##  randomForest(formula = is_canceled ~ total_of_special_requests +      adr + required_car_parking_spaces + booking_changes + previous_cancellations +      lead_time + deposit_type + is_repeated_guest + arrival_date_day_of_month +      market_segment + arrival_date_month + customer_type, data = bookings_ml_v3) 
+    ##  randomForest(formula = is_canceled ~ total_of_special_requests + adr + required_car_parking_spaces + booking_changes + previous_cancellations + lead_time + deposit_type + is_repeated_guest + arrival_date_day_of_month + market_segment + arrival_date_month + customer_type, data = bookings_ml_v3) 
     ##                Type of random forest: classification
     ##                      Number of trees: 500
     ## No. of variables tried at each split: 3
@@ -1101,7 +1101,7 @@ rf_model4
 
     ## 
     ## Call:
-    ##  randomForest(formula = is_canceled ~ total_of_special_requests +      adr + required_car_parking_spaces + booking_changes + previous_cancellations +      lead_time + deposit_type + is_repeated_guest + arrival_date_day_of_month +      market_segment + arrival_date_month + customer_type, data = bookings_ml_v3,      ntree = 500, mtry = 8) 
+    ##  randomForest(formula = is_canceled ~ total_of_special_requests + adr + required_car_parking_spaces + booking_changes + previous_cancellations + lead_time + deposit_type + is_repeated_guest + arrival_date_day_of_month + market_segment + arrival_date_month + customer_type, data = bookings_ml_v3, ntree = 500, mtry = 8) 
     ##                Type of random forest: classification
     ##                      Number of trees: 500
     ## No. of variables tried at each split: 8
