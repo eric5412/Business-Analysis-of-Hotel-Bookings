@@ -259,7 +259,7 @@ ggplot(bookings_df, aes(x = factor(is_canceled), y = lead_time)) +
   theme(text = element_text(size = 12.25))
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/Exploratory%20Data%20Analysis-1.png)<!-- -->
+![A box plot of Lead Time by Cancellation Status](/images/1.png)
 
 The Lead Time is the number of days that have elapsed since a booking
 was made. The box plot suggests that as Lead Time increases, the
@@ -314,7 +314,7 @@ ggplot(bookings_df, aes(x = is_canceled, y = previous_cancellations)) +
   theme(text = element_text(size = 12.25))
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![A scatter plot of Previous Cancellations by Cancellation Status](/images/2.png)
 
 The scatter plot suggests that when there is an increase in the number
 of Previous Cancellations by a potential guest, the likelihood of their
@@ -337,7 +337,7 @@ and Cancellation Status",
   scale_y_continuous(labels = label_comma(), limits = c(0, 38000))
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![A bar chart of the Number of Bookings by Total Special Requests and Cancellation Status](/images/3.png)
 
 The bar chart shows that for each category of Total Special Requests,
 there were more bookings that were not canceled, in comparison to
@@ -365,7 +365,7 @@ and Cancellation Status",
   scale_y_continuous(labels = label_comma(), limits = c(0, 70000))
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![A bar chart of the Number of Bookings by Required Car Parking Spaces and Cancellation Status](/images/4.png)
 
 The bar chart suggests that if the option to request car parking spaces
 is used during a booking, then there may be a lower likelihood that the
@@ -388,7 +388,7 @@ and Cancellation Status",
   scale_y_continuous(labels = label_comma(), limits = c(0, 62000))
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![A bar chart of the Number of Bookings by Booking Changes and Cancellation Status](/images/5.png)
 
 The bar chart suggests that when several changes have been made to a
 booking, there is a lower likelihood that the booking will be canceled.
@@ -411,7 +411,7 @@ Cancellation Status",
   scale_y_continuous(labels = label_comma(), limits = c(0, 74000))
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![A bar chart of the Number of Bookings by Repeated Guest Status and Cancellation Status](/images/6.png)
 
 The bar chart suggests that if a potential guest is a repeated guest,
 then there may be a lower likelihood that their current booking will be
@@ -444,7 +444,7 @@ bookings_df %>%
   scale_y_continuous(labels = label_comma(), limits = c(0, 81000))
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![A bar chart of the Number of Bookings by Cancellation Status](/images/7.png)
 
 Overall, most of the bookings for the hotels were not canceled during
 2015 to 2017. <br> <br>
@@ -469,7 +469,7 @@ bookings_df %>% count(is_canceled, hotel) %>%
   scale_y_continuous(labels = label_comma(), limits = c(0, 50000))
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![A bar chart of the Number of Bookings by Cancellation Status and Hotel](/images/8.png)
 
 - The City Hotel had more canceled bookings than the Resort Hotel.
 - City Hotel cancellation rate: **41.73%**. ((33,102)/(46,228 +
@@ -497,7 +497,7 @@ bookings_df %>%
   theme(axis.text.x = element_text(angle = 45))
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![A bar chart of the Number of Bookings by Month, Year, and Hotel](/images/9.png)
 
 Booking data was only provided for the last six months in 2015. Booking
 data was provided for all twelve months in 2016. Booking data was only
@@ -530,7 +530,7 @@ bookings_df %>% count(deposit_type) %>%
   theme(text = element_text(size = 12.75))
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![A doughnut chart of the Deposit Type Percentage for Bookings](/images/10.png)
 
 Most of the bookings for both of the hotels were made with no deposit.
 <br> <br>
@@ -567,7 +567,7 @@ not_canceled_df %>% filter(arrival_date_year == 2016) %>%
   theme(axis.text.x = element_text(angle = 25))
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![A line chart of the Number of Bookings Kept by Month and Hotel in 2016](/images/11.png)
 
 For every month of 2016, the City Hotel received more bookings kept than
 the Resort Hotel. In September, the City Hotel received its highest
@@ -595,7 +595,7 @@ ggplot(not_canceled_df, aes(x = factor(hotel), y = adr)) +
   scale_y_continuous(labels = label_dollar(prefix = "\u20ac", suffix = ""))
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+![A box plot of the Average Daily Rate by Hotel for Bookings Kept](/images/12.png)
 
 On average, the City Hotel had a higher Average Daily Rate. <br> <br>
 
@@ -694,7 +694,7 @@ not_canceled_df %>% filter(arrival_date_year == "2016") %>%
   theme(legend.position = "none")
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![A bar chart of the Total Nights Stayed by Hotel in 2016](/images/13.png)
 
 For 2016, there were more nights stayed in the City Hotel than the
 Resort Hotel. <br> <br>
@@ -717,7 +717,7 @@ not_canceled_df %>% filter(arrival_date_month == "July") %>%
   scale_y_continuous(labels = label_comma(), limits = c(0, 2500))
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
+![A bar chart of the Year-Over-Year Bookings Kept in July](/images/14.png)
 
 From 2015 through 2017, the City Hotel had an upward trend in its number
 of bookings kept in July.
@@ -744,7 +744,7 @@ not_canceled_df %>% filter(arrival_date_month == "August") %>%
   scale_y_continuous(labels = label_comma(), limits = c(0, 2500))
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
+![A bar chart of the Year-Over-Year Bookings Kept in August](/images/15.png)
 
 From 2015 to 2016, the City Hotel had a **70.75%** increase in its
 number of bookings kept in August. ((2,131 - 1,248)/(1,248))x100%  
@@ -994,7 +994,7 @@ model to determine which features were the most important.
 varImpPlot(rf_model2) 
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-31-1.png)<!-- -->
+![A Variable Importance Plot that displays the importance of each feature in the model](/images/16.png)
 
 The Variable Importance Plot measures how important a feature is in
 classifying the data. <br> <br>
@@ -1046,7 +1046,7 @@ The number of trees parameter, ntree, was then evaluated.
 plot(rf_model3)
 ```
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-34-1.png)<!-- -->
+![A plot of the number of trees parameter, leveling out at 500 trees](/images/17.png)
 
 The plot suggests that the error rate levels out at 500 trees. <br> <br>
 
@@ -1074,7 +1074,7 @@ mtry_tune <- tuneRF(x = bookings_ml_v3%>%select(-is_canceled),
     ## mtry = 16    OOB error = 12.54% 
     ## -0.01608852 0.05
 
-![](Analysis-of-Hotel-Bookings_files/figure-gfm/unnamed-chunk-35-1.png)<!-- -->
+![A plot of the optimal number of features to randomly select when splitting the nodes](/images/18.png)
 
 The tuning results suggest that randomly selecting eight variables to
 split the nodes of the Decision Trees will result in a lower Out-Of-Bag
