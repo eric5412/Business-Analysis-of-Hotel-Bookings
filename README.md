@@ -69,5 +69,18 @@ its number of bookings kept in July, with a slight decrease in 2016.
 
 <br>
 
+![A bar chart of the Year-Over-Year Bookings Kept in August](/images/15.png)
+
+From 2015 to 2016, the City Hotel had a **70.75%** increase in its
+number of bookings kept in August. ((2,131 - 1,248)/(1,248))x100%  
+From 2016 to 2017, the City Hotel had a **6.05%** decrease in its number
+of bookings kept in August. ((2,002 - 2,131)/(2,131))x100%
+
+From 2015 to 2016, the Resort Hotel had a slight increase in the number
+of bookings kept in August. From 2016 to 2017, the Resort Hotel had no
+change in the number of bookings kept in August. 
+
+<br>
+
 
 
