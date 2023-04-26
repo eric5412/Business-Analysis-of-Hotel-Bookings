@@ -42,7 +42,6 @@ support the hotels when calculating revenue projections.
 <br>
 
 ![A bar chart of the Number of Bookings by Cancellation Status and Hotel](/images/8.png)
-
 - The City Hotel had more canceled bookings than the Resort Hotel.
 - City Hotel cancellation rate: **41.73%**. ((33,102)/(46,228 +
   33,102))x100%  
@@ -54,7 +53,6 @@ support the hotels when calculating revenue projections.
   <br>
   
   ![A doughnut chart of the Deposit Type Percentage for Bookings](/images/10.png)
-
 Most of the bookings for both of the hotels were made with no deposit.
 
 <br>
