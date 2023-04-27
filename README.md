@@ -87,7 +87,7 @@ change in the number of bookings kept in August.
 Random Forest is an ensemble machine learning algorithm that can be used
 for regression or classification purposes. It combines multiple Decision
 Trees in order to make a prediction. This project used Random Forest as
-a classifier. Random Forest was used to predict if a booking will be canceled or not
+a classifier. Random Forest was used to predict if a booking would be canceled or not
 canceled.
 
 Four Random Forest machine learning models were built and compared,
