@@ -34,7 +34,7 @@ support the hotels when calculating revenue projections.
 
 - **Part 2:** The Random Forest machine learning algorithm was used to
   predict cancellation status, indicating if a booking would be canceled or
-  not canceled. Several Random Forest machine learning models were built
+  not canceled. Four Random Forest machine learning models were built
   and compared, in order to evaluate which model was to be selected in
   providing estimates to support the hotels when calculating revenue
   projections.
@@ -765,7 +765,7 @@ for regression or classification purposes. It combines multiple Decision
 Trees in order to make a prediction. This project used Random Forest as
 a classifier.
 
-Several Random Forest machine learning models were built and compared,
+Four Random Forest machine learning models were built and compared,
 with the goal of selecting a model that would generalize well with new
 data, have a low number of false negatives, and have a high accuracy.
 The selected model can be used by the two hotels to estimate how many
