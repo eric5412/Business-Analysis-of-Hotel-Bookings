@@ -311,7 +311,7 @@ bookings_df %>%
                                    "October", "November", "December")))) +
   geom_bar() +
   facet_grid(~arrival_date_year~hotel) +
-  labs(title = "Distribution of Number of Bookings by Month, Year, and Hotel",
+  labs(title = "Distribution of the Number of Bookings by Month, Year, and Hotel",
        x="Month",
        y="Number of Bookings") +
   theme(axis.text.x = element_text(angle = 45))
