@@ -99,7 +99,15 @@ period.
 
 <br>
 
-### Overview of Part 1:
+In the context of predicting whether a booking will be canceled or not,
+an important value to consider is the number of false negatives. In this
+situation, a false negative occurs when a booking is predicted to not be
+canceled, and it actually ends up being canceled. False negatives may
+have more of an effect on revenue projections than false positives.
+False negatives may be more costly, because they can result in a lower
+actual revenue than what a hotel was expecting in their forecast.
+
+<br>
 
 **Conclusion:** The results of the fourth model were very close to the
 results of the second model, which used all the features when building a
