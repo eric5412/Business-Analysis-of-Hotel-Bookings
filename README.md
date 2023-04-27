@@ -99,6 +99,8 @@ period.
 
 <br>
 
+### Overview of Part 1:
+
 **Conclusion:** The results of the fourth model were very close to the
 results of the second model, which used all the features when building a
 Random Forest. The second model provided the highest accuracy and the
