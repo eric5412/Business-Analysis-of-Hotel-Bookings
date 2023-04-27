@@ -24,7 +24,7 @@ The second goal was to use machine learning to develop a tool that can
 be used for estimating the number of canceled bookings, in order to
 support the hotels when calculating revenue projections.
 
-##### The project was done using R and it consisted of two parts:
+#### The project was done using R and it consisted of two parts:
 
 - **Part 1:** An Exploratory Data Analysis was performed in order to
   gain insights to support hotel management with operations and demand
