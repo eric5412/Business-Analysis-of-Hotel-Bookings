@@ -294,6 +294,7 @@ bookings_df %>% count(is_canceled, hotel) %>%
   scale_y_continuous(labels = label_comma(), limits = c(0, 50000))
 ```
 
+* A cancellation status of 0 indicates that a booking was not canceled. A cancellation status of 1 indicates that a booking was canceled".
 * The City Hotel had more canceled bookings than the Resort Hotel.
 * City Hotel cancellation rate: **41.73%**. ((33,102)/(46,228 + 33,102))x100%  
 * Resort Hotel cancellation rate: **27.76%**. ((11,122)/(28,938 + 11,122))x100%
