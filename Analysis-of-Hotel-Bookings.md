@@ -235,7 +235,7 @@ summary(bookings_df)
     ##                     Max.   :2017-09-14     
     ## 
 
-##### **Findings:**
+#### Findings:
 
 - The arrival date years were 2015, 2016, and 2017.
 - There were four missing values in the overall data frame.
@@ -777,7 +777,7 @@ canceled based on certain independent variables, which are also called
 features. The “is_canceled” column is the dependent variable, which is
 also called the target variable.
 
-##### For the “is_canceled” column:
+#### For the “is_canceled” column:
 
 - 0 means that a booking was not canceled, which can be interpreted as
   being negative for a cancellation.
