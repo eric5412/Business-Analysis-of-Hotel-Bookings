@@ -772,7 +772,7 @@ The selected model can be used by the two hotels to estimate how many
 canceled and non-canceled bookings they may have for a given time
 period.
 
-Random Forest was used to predict if a booking will be canceled or not
+Random Forest was used to predict if a booking would be canceled or not
 canceled based on certain independent variables, which are also called
 features. The “is_canceled” column is the dependent variable, which is
 also called the target variable.
