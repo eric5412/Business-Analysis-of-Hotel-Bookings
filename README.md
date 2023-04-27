@@ -83,6 +83,21 @@ change in the number of bookings kept in August.
 
 <br>
 
+![A line chart of the Number of Bookings Kept by Month and Hotel in 2016](/images/11.png)
+
+For every month of 2016, the City Hotel received more bookings kept than
+the Resort Hotel. In September, the City Hotel received its highest
+number of bookings kept. In October, the Resort Hotel received its
+highest number of bookings kept. In January, both the City Hotel and the
+Resort Hotel received their lowest number of bookings kept.
+
+Based on the data from 2016, the City Hotel can expect its highest
+demand in September and its lowest demand in January. The Resort Hotel
+can expect its highest demand in October and its lowest demand in
+January. 
+
+<br>
+
 ### Overview of Part 2:
 Random Forest is an ensemble machine learning algorithm that can be used
 for regression or classification purposes. It combines multiple Decision
