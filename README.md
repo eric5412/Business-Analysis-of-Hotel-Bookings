@@ -190,4 +190,4 @@ not canceled.
     
 <br> 
 
-Please click [here]( https://github.com/eric5412/Business-Analysis-of-Hotel-Bookings/blob/main/Analysis-of-Hotel-Bookings.md) for the entire project.
+**Please click [here]( https://github.com/eric5412/Business-Analysis-of-Hotel-Bookings/blob/main/Analysis-of-Hotel-Bookings.md) for the entire project.**
