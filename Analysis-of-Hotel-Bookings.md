@@ -417,9 +417,9 @@ The bar chart suggests that if a potential guest is a repeated guest,
 then there may be a lower likelihood that their current booking will be
 canceled.
 
-- Repeated Guest cancellation rate: **14.49%**. ((552)/(3,258 +
+- Repeated Guest cancellation rate: **14.49%**.  ((552)/(3,258 +
   552))x100%  
-- Repeated Guest non-cancellation rate: **85.51%**. ((3,258)/(3,258 +
+- Repeated Guest non-cancellation rate: **85.51%**.  ((3,258)/(3,258 +
   552))x100%  
 - Most of the repeated guests did not cancel their current booking. <br>
   <br>
@@ -473,9 +473,9 @@ bookings_df %>% count(is_canceled, hotel) %>%
 
 - A cancellation status of 0 indicates that a booking was not canceled. A cancellation status of 1 indicates that a booking was canceled.
 - The City Hotel had more canceled bookings than the Resort Hotel.
-- City Hotel cancellation rate: **41.73%**. ((33,102)/(46,228 +
+- City Hotel cancellation rate: **41.73%**.  ((33,102)/(46,228 +
   33,102))x100%  
-- Resort Hotel cancellation rate: **27.76%**. ((11,122)/(28,938 +
+- Resort Hotel cancellation rate: **27.76%**.  ((11,122)/(28,938 +
   11,122))x100%
 - The City Hotel also had a higher cancellation rate than the Resort
   Hotel. <br> <br>
@@ -748,9 +748,9 @@ not_canceled_df %>% filter(arrival_date_month == "August") %>%
 ![A bar chart of the Year-Over-Year Bookings Kept in August](/images/15.png)
 
 From 2015 to 2016, the City Hotel had a **70.75%** increase in its
-number of bookings kept in August. ((2,131 - 1,248)/(1,248))x100%  
+number of bookings kept in August.  ((2,131 - 1,248)/(1,248))x100%  
 From 2016 to 2017, the City Hotel had a **6.05%** decrease in its number
-of bookings kept in August. ((2,002 - 2,131)/(2,131))x100%
+of bookings kept in August.  ((2,002 - 2,131)/(2,131))x100%
 
 From 2015 to 2016, the Resort Hotel had a slight increase in the number
 of bookings kept in August. From 2016 to 2017, the Resort Hotel had no
@@ -909,7 +909,7 @@ default value of 500 trees. Two variables were tried at each split.
 
 The proportion of Out-Of-Bag samples that are incorrectly classified is
 called the Out-Of-Bag error rate. The Out-Of-Bag error rate for the
-model was 25.28% and the model accuracy was 74.72%. (100% - 25.28%)
+model was 25.28% and the model accuracy was 74.72%.  (100% - 25.28%)
 
 The Out-Of-Bag error rate was calculated as follows:  
 (14,926 + 15,252) / (14,926 + 15,252 + 59,914 + 29,294)  
@@ -975,7 +975,7 @@ The number of Decision Trees used to build this Random Forest was the
 default value of 500 trees. Five variables were tried at each split.
 
 With this model, the Out-Of-Bag error rate decreased to 12.61% and the
-model accuracy increased to 87.39%. (100% - 12.61%)  
+model accuracy increased to 87.39%.  (100% - 12.61%)  
 The number of false negatives decreased to 10,044.  
 The accuracy improved, but it may not be recommended to use all the
 features in the data frame that were used to build this model. If all
@@ -1037,7 +1037,7 @@ The number of Decision Trees used to build this Random Forest was 500
 trees. Three variables were tried at each split.
 
 The Out-Of-Bag error rate for the model increased to 16.36% and the
-model accuracy decreased to 83.64%. (100% - 16.36%)  
+model accuracy decreased to 83.64%.  (100% - 16.36%)  
 The number of false negatives increased to 14,720. <br> <br>
 
 The number of trees parameter, ntree, was then evaluated.
@@ -1117,7 +1117,7 @@ The number of Decision Trees used to build this Random Forest was 500
 trees. Eight variables were tried at each split.
 
 The Out-Of-Bag error rate for the model decreased to 13.95% and the
-model accuracy increased to 86.05%. (100% - 13.95%)  
+model accuracy increased to 86.05%.  (100% - 13.95%)  
 The number of false negatives decreased to 10,250.
 
 **Conclusion:** The results of the fourth model were very close to the
