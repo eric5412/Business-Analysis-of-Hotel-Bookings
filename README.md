@@ -45,10 +45,10 @@ support the hotels when calculating revenue projections.
 
 - A cancellation status of 0 indicates that a booking was not canceled. A cancellation status of 1 indicates that a booking was canceled.
 - The City Hotel had more canceled bookings than the Resort Hotel.
-- City Hotel cancellation rate: **41.73%**. ((33,102)/(46,228 +
-  33,102))x100%  
-- Resort Hotel cancellation rate: **27.76%**. ((11,122)/(28,938 +
-  11,122))x100%
+- City Hotel cancellation rate: **41.73%**. ((33,102) / (46,228 +
+  33,102)) x 100%  
+- Resort Hotel cancellation rate: **27.76%**. ((11,122) / (28,938 +
+  11,122)) x 100%
 - The City Hotel also had a higher cancellation rate than the Resort
   Hotel. 
   
@@ -73,9 +73,9 @@ its number of bookings kept in July, with a slight decrease in 2016.
 ![A bar chart of the Year-Over-Year Bookings Kept in August](/images/15.png)
 
 From 2015 to 2016, the City Hotel had a **70.75%** increase in its
-number of bookings kept in August. ((2,131 - 1,248)/(1,248))x100%  
+number of bookings kept in August. ((2,131 - 1,248) / (1,248)) x 100%  
 From 2016 to 2017, the City Hotel had a **6.05%** decrease in its number
-of bookings kept in August. ((2,002 - 2,131)/(2,131))x100%
+of bookings kept in August. ((2,002 - 2,131) / (2,131)) x 100%
 
 From 2015 to 2016, the Resort Hotel had a slight increase in the number
 of bookings kept in August. From 2016 to 2017, the Resort Hotel had no
