@@ -30,7 +30,7 @@ insights to support hotel management with operations and demand forecasting
 decisions. An overview of booking results was also presented.
 
 * **Part 2:** The Random Forest machine learning algorithm was used to predict 
-cancellation status, indicating if a booking would be canceled or not canceled. Several Random Forest machine learning models were built and compared, in order to evaluate which model was to be selected in providing estimates to support the hotels when calculating revenue projections.
+cancellation status, indicating if a booking would be canceled or not canceled. Four Random Forest machine learning models were built and compared, in order to evaluate which model was to be selected in providing estimates to support the hotels when calculating revenue projections.
 
 <br>
 
@@ -553,7 +553,7 @@ Random Forest is an ensemble machine learning algorithm that can be used for
 regression or classification purposes. It combines multiple Decision Trees in
 order to make a prediction. This project used Random Forest as a classifier. 
 
-Several Random Forest machine learning models were built and compared, with the goal of selecting a model that would generalize well with new data, have a low number of false negatives, and have a high accuracy. The selected model can be used by the two hotels to estimate how many canceled and non-canceled bookings they may have for a given time period.
+Four Random Forest machine learning models were built and compared, with the goal of selecting a model that would generalize well with new data, have a low number of false negatives, and have a high accuracy. The selected model can be used by the two hotels to estimate how many canceled and non-canceled bookings they may have for a given time period.
 
 Random Forest was used to predict if a booking will be canceled or not canceled based on certain independent variables, which are also called features. The "is_canceled" column is the dependent variable, which is also called the target variable.  
 
