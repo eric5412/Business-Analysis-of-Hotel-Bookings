@@ -42,7 +42,7 @@ support the hotels when calculating revenue projections.
 
 ![A bar chart of the Number of Bookings by Cancellation Status and Hotel](/images/8.png)
 
-- A cancellation status of 0 indicates that a booking was not canceled. A cancellation status of 1 indicates that a booking was canceled".
+- A cancellation status of 0 indicates that a booking was not canceled. A cancellation status of 1 indicates that a booking was canceled.
 - The City Hotel had more canceled bookings than the Resort Hotel.
 - City Hotel cancellation rate: **41.73%**. ((33,102)/(46,228 +
   33,102))x100%  
