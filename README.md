@@ -40,6 +40,7 @@ support the hotels when calculating revenue projections.
 
 <br>
 
+### Overview of Part 1:
 ![A bar chart of the Number of Bookings by Cancellation Status and Hotel](/images/8.png)
 
 - A cancellation status of 0 indicates that a booking was not canceled. A cancellation status of 1 indicates that a booking was canceled.
@@ -82,6 +83,7 @@ change in the number of bookings kept in August.
 
 <br>
 
+### Overview of Part 2:
 Random Forest is an ensemble machine learning algorithm that can be used
 for regression or classification purposes. It combines multiple Decision
 Trees in order to make a prediction. This project used Random Forest as
